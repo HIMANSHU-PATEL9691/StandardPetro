@@ -44,8 +44,8 @@ app.use(compression());
 app.use(
   cors({
     origin: [
-      "https://api.standardpetro.in",
-      "https://api.standardpetro.com",
+      "https://standardpetro.in",
+      "https://standardpetro.com",
       "http://localhost:5173",
       "http://localhost:3000",
     ],
